@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import edgelearn from "../../Assets/Projects/Edgeledger.png";
+import show from "../../Assets/Projects/codeEditor.png";
+import grilli from "../../Assets/Projects/Grilli.png";
 import airbnb from "../../Assets/Projects/airbnb.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import weather from "../../Assets/Projects/weatherjpeg.jpeg";
+import hospital from "../../Assets/Projects/hospital.png";
 
 function Projects() {
   return (
@@ -45,46 +45,45 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={grilli}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Grilli"
+              description="A responsive Restaurant management website which includes various section of restaurant . it is created by using HTML, CSS Javacsript added some more styles in the website."
+              ghLink="hhttps://github.com/Nihalakhare01/Grilli"
+              // demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={edgelearn}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Edge Ledger"
+              description="Responsive Website created by using Html, Css, Java script - Edge Ledger"
+              ghLink="https://github.com/Nihalakhare01/MERN-Stack-Practices/tree/main/Responsive%20Edge%20ledger%20Website"
+              demoLink="edgelearn.netlify.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={show}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Showroom Mangement System"
+              description="Showroom Management System is a OOPs concept base small project by using Java language. In this project, Inheritance, Class & Object Creation,File handling, Array of Objects importing packages like various tasks are perform."
+              ghLink="https://github.com/Nihalakhare01/Showroom-Management-System-"
+             // demoLink="" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={weather}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Weather Application"
+              description="A weather app project provides weather forecasts for a user's location, or designing a user interface that provides comprehensive data. The technology used in the project, such as Language like react and Api's etc."
+              ghLink="https://github.com/Nihalakhare01/Weather-App/tree/main/Mini%20project"
+              // demoLink=""      <--------Please include a demo link here 
             />
           </Col>
         </Row>
