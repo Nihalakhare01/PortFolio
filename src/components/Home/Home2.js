@@ -88,14 +88,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
+                {/* <a
                   href=""
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                >
+                > */}
                   <AiOutlineTwitter />
-                </a>
+                {/* </a> */}
               </li>
               <li className="social-icons">
                 <a

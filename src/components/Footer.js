@@ -32,14 +32,14 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
+              {/* <a
                 href=""
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
-              >
+              > */}
                 <AiOutlineTwitter />
-              </a>
+              {/* </a> */}
             </li>
             <li className="social-icons">
               <a
