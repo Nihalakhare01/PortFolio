@@ -5,6 +5,10 @@ import {
   BsTwitterX,
   AiFillInstagram,
 } from "react-icons/ai";
+import {
+  BsTwitterX,
+} from "react-icons/bs";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {

@@ -4,9 +4,11 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  BsTwitterX,
   AiFillInstagram,
 } from "react-icons/ai";
+import {
+  BsTwitterX
+} from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
