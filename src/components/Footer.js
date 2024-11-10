@@ -4,8 +4,6 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { BsTwitterX } from "react-icons/bs";
-
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -30,16 +28,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://github.com/Nihalakhare01"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <BsTwitterX />
               </a>
             </li>
             <li className="social-icons">
