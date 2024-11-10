@@ -94,7 +94,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineX />
                 </a>
               </li>
               <li className="social-icons">
